@@ -1,0 +1,8 @@
+git clone
+cd folder
+git status
+git add .
+git commit -m "mssg"
+git pull
+git push
+
