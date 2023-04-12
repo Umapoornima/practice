@@ -7,5 +7,14 @@ git config --global user.email ""
 git config --list.
 git config --global --unset user.name ""
 git config --global --unset user.email ""
+git status -- to see the status
+git log -- to listout the logs
+git log -p -- to print the what are the changes we did
+git add filename or pwd ---> to add the file
+git add * -> To add the all the files
+git commit -m "we can give the message"
+git push -> to push the changes local to remote repository
+git pull -> to pull the changes from remote to local
+
 
 
