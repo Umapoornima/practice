@@ -1,0 +1,6 @@
+yum install git -y
+git version
+git clone
+git status
+git branch
+
