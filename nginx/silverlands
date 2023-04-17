@@ -1,0 +1,18 @@
+first we have to launch the ubuntu server
+1. we have to update -> sudo apt-get update
+2. we have to install nginx
+   -> sudo apt-get install nginx
+   -> systemctl enable nginx
+   -> systemctl status nginx
+   -> systemctl start nginx
+   -> nginx -v
+3. sudo apt-get install nodejs
+   -> node --version
+4. we have clone the git repository & we have to change the directory
+5. sudo npm install
+6. npm run build
+7. we have to comeout of git repository and we have to enter inside root directory
+8. sudo cp -r /home/ubuntu/sl_web/build/. /var/www/html
+9. sudo vim /etc/nginx/sites_available/default
+   we have to add the public ip adress heare  and save the file
+10. we have to restart the nginx {sudo service nginx restart} -> by opening the public ip we can access the application
